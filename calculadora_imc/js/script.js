@@ -33,3 +33,6 @@ form.onsubmit = event => {
     modal.open()
 }
 
+inputHeight.oninput = () => AlertError.close()
+inputWeight.oninput = () => AlertError.close()
+

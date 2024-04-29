@@ -9,3 +9,4 @@ export function IMC(weight, height) {
 export function notANumber(value) {
     return isNaN(value) || value == ""
 }
+
